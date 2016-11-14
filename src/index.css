@@ -1,0 +1,30 @@
+.swap-animation {
+    position: relative;
+    overflow: hidden;
+}
+
+.swap-animation.swap-animation-active {
+    transition: all 0.3s ease-out;
+    transition-property: min-height, max-height, height;
+}
+
+.swap-animation > .swap-animation-enter {
+    opacity: 0.01;
+}
+
+.swap-animation > .swap-animation-enter.swap-animation-enter-active {
+    transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+
+.swap-animation > .swap-animation-leave {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+.swap-animation > .swap-animation-leave.swap-animation-leave-active {
+    opacity: 0.01;
+}
