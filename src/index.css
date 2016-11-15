@@ -4,8 +4,7 @@
 }
 
 .swap-animation.swap-animation-active {
-    transition: all 0.3s ease-out;
-    transition-property: min-height, max-height, height;
+    transition: height 0.3s ease-out;
 }
 
 .swap-animation > .swap-animation-enter {
