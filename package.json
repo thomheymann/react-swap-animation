@@ -1,6 +1,6 @@
 {
   "name": "react-swap-animation",
-  "version": "0.14.1",
+  "version": "15.5.0-alpha.1",
   "description": "Swap animation for React",
   "main": "./lib/index.js",
   "style": "./lib/index.css",
@@ -18,13 +18,14 @@
     "type": "git",
     "url": "https://github.com/cyberthom/react-swap-animation"
   },
-  "dependencies": {
-    "classnames": "^2.2.5"
-  },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
-    "react-delegate-transition-group": "^0.14.1",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react": "^0.14.9 || ^15.3.0",
+    "react-dom": "^0.14.9 || ^15.3.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.0",
+    "react-delegate-transition-group": "^15.5.0-alpha.1"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

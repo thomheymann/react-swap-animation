@@ -2,7 +2,7 @@
 
 Swap animation for React. Useful to smoothly swap blocks of content with varying heights. 
 
-Note: Due to the nature of the effect `SwapAnimation` only animates a single child. If you want to animate items in a list use something like [react-slide-animation](https://github.com/cyberthom/react-slide-animation) instead. 
+Note: Due to the nature of the effect `SwapAnimation` only animates a single child. If you want to animate items in a list use [react-slide-animation](https://github.com/cyberthom/react-slide-animation) instead. 
 
 
 ## Installation

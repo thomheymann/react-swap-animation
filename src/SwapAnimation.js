@@ -1,7 +1,8 @@
 import classNames from 'classnames';
 import DelegateTransitionGroup from 'react-delegate-transition-group';
+import PropTypes from 'prop-types';
 import { addEndEventListener, removeEndEventListener } from 'react/lib/ReactTransitionEvents';
-import { Component, PropTypes, createElement } from 'react';
+import { Component, createElement } from 'react';
 import { findDOMNode } from 'react-dom';
 
 const TICK = 17;
