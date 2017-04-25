@@ -68,9 +68,9 @@ class SwapAnimation extends Component {
     }
 
     render() {
-        const { className, animationName } = this.props;
+        const { className, animationName, ...rest } = this.props;
 
-        return createElement(DelegateTransitionGroup, { ...this.props, className: classNames(className, animationName), onEnter: this.childWillEnter, onLeave: this.childWillLeave });
+        return createElement(DelegateTransitionGroup, { ...rest, className: classNames(className, animationName), onEnter: this.childWillEnter, onLeave: this.childWillLeave });
     }
 }
 

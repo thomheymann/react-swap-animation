@@ -1,6 +1,6 @@
 {
   "name": "react-swap-animation",
-  "version": "15.5.0-alpha.1",
+  "version": "15.5.0",
   "description": "Swap animation for React",
   "main": "./lib/index.js",
   "style": "./lib/index.css",
@@ -25,7 +25,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.0",
-    "react-delegate-transition-group": "^15.5.0-alpha.1"
+    "react-delegate-transition-group": "^15.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
