@@ -18,7 +18,7 @@ npm install --save react-swap-animation
 import SwapAnimation from 'react-swap-animation';
 
 const Message = ({ message }) => (
-    <SwapAnimation>
+    <SwapAnimation animationEnterTimeout={300} animationLeaveTimeout={300}>
         {!message ? <Spinner key="spinner" /> : <Text key="message">{message}</Text>}
     </SwapAnimation>
 );
@@ -44,6 +44,10 @@ Or manually add `react-swap-animation/lib/index.css` to your webpack entry confi
 * `children` - **Required.** Single child that animates when swapped. 
 
     **You must provide the `key` attribute for all children of `SwapAnimation`.** This is how React determines which child has entered, left, or stayed.
+
+* `animationEnterTimeout` - **Required.** Duration of transition for child entering.
+
+* `animationLeaveTimeout` - **Required.** Duration of transition for child leaving.
 
 * `component` - Component used for rendering. *(default: 'div')*
 
